@@ -1,0 +1,197 @@
+{
+ "id": 60970,
+ "debug": true,
+ "title": "Численность рабочей силы (оперативные данные)",
+ "unit": "тысяча человек",
+ "filters": {
+  "0": {
+   "title": "Показатель",
+   "all": true,
+   "values": {
+    "60970": {
+     "title": "Численность рабочей силы (оперативные данные)",
+     "order": 0,
+     "checked": true
+    }
+   },
+   "indicator": true
+  },
+  "3": {
+   "title": "Год",
+   "all": false,
+   "values": {
+    "2017": {
+     "title": "2017",
+     "order": 0,
+     "checked": false
+    },
+    "2018": {
+     "title": "2018",
+     "order": 1,
+     "checked": false
+    },
+    "2019": {
+     "title": "2019",
+     "order": 2,
+     "checked": false
+    },
+    "2020": {
+     "title": "2020",
+     "order": 3,
+     "checked": false
+    },
+    "2021": {
+     "title": "2021",
+     "order": 4,
+     "checked": false
+    },
+    "2022": {
+     "title": "2022",
+     "order": 5,
+     "checked": false
+    },
+    "2023": {
+     "title": "2023",
+     "order": 6,
+     "checked": false
+    },
+    "2024": {
+     "title": "2024",
+     "order": 7,
+     "checked": false
+    },
+    "2025": {
+     "title": "2025",
+     "order": 8,
+     "checked": false
+    },
+    "2026": {
+     "title": "2026",
+     "order": 9,
+     "checked": true
+    }
+   },
+   "indicator": false
+  },
+  "58335": {
+   "title": "Возраст",
+   "all": true,
+   "values": {
+    "1788561": {
+     "title": "15 лет и старше",
+     "order": 0,
+     "checked": true
+    }
+   },
+   "indicator": false
+  },
+  "57831": {
+   "title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+   "all": false,
+   "values": {
+    "1688487": {
+     "title": "Российская Федерация",
+     "order": 0,
+     "checked": true
+    },
+    "1849012": {
+     "title": "Российская Федерация без учета новых субъектов (с 01.01.2023)",
+     "order": 1,
+     "checked": false
+    }
+   },
+   "indicator": false
+  },
+  "30611": {
+   "title": "Единица измерения",
+   "all": true,
+   "values": {
+    "950459": {
+     "title": "тысяча человек",
+     "order": 0,
+     "checked": true
+    }
+   },
+   "indicator": false
+  },
+  "33560": {
+   "title": "Период",
+   "all": true,
+   "values": {
+    "1540283": {
+     "title": "январь",
+     "order": 0,
+     "checked": true
+    },
+    "1540282": {
+     "title": "февраль",
+     "order": 1,
+     "checked": true
+    },
+    "1540236": {
+     "title": "март",
+     "order": 2,
+     "checked": true
+    },
+    "1540229": {
+     "title": "апрель",
+     "order": 3,
+     "checked": true
+    },
+    "1540235": {
+     "title": "май",
+     "order": 4,
+     "checked": true
+    },
+    "1540234": {
+     "title": "июнь",
+     "order": 5,
+     "checked": true
+    },
+    "1540233": {
+     "title": "июль",
+     "order": 6,
+     "checked": true
+    },
+    "1540228": {
+     "title": "август",
+     "order": 7,
+     "checked": true
+    },
+    "1540276": {
+     "title": "сентябрь",
+     "order": 8,
+     "checked": true
+    },
+    "1540273": {
+     "title": "октябрь",
+     "order": 9,
+     "checked": true
+    },
+    "1540272": {
+     "title": "ноябрь",
+     "order": 10,
+     "checked": true
+    },
+    "1540230": {
+     "title": "декабрь",
+     "order": 11,
+     "checked": true
+    }
+   },
+   "indicator": false
+  }
+ },
+ "left_columns": [
+  58335,
+  57831,
+  30611,
+  3,
+  33560
+ ],
+ "top_columns": [],
+ "groups": [],
+ "filterObjectIds": [],
+ "_fetched_at": "2026-10-24T10:47:55",
+ "_url": "https://www.fedstat.ru/indicator/60970"
+}
