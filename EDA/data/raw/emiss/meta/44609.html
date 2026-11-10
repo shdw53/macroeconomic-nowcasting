@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html>
+  
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>ЕМИСС </title>
+    <link rel="icon" href="/common/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/common/img/favicon.ico" type="image/x-icon">
+    <link rel="image_src" type="image/jpeg" href="/common/img/logo.jpg">
+    <link rel="stylesheet" href="/common/css/style.css">
+    <script src="/common/js/jquery.min.js"></script>
+    <script src="/js/lib/handlebars-v4.0.4.js"></script>
+    
+</head>
+
+  <body class="body_gray">
+    <div class="ocol">
+      <div class="lr_top clearfix">
+      
+        <div class="lrt_r"><span class="lnk lnk_pt">У вас нет учетной записи?</span>
+          <div class="lrt_btns"><a href="/user/registration" class="btn white_btn_border">Зарегистрироваться</a></div>
+        </div>
+      
+      </div>
+      <div class="lr_middle">
+        <div class="lr_cont">
+          <div class="login_logo">
+            <div class="site_logo"><a href="/" class="main_logo">
+                <div class="logo icon-footer_logo"></div>
+                <div class="txt">
+                  <div class="sp1">ЕМИСС</div>
+                  <div class="sp2">Государственная статистика</div>
+                </div></a></div>
+          </div>
+          
+          
+          
+          <form action="authorize" method="post">
+            <input type="hidden" name="struts.token.name" value="token" />
+<input type="hidden" name="token" value="J5AFHAYVGG2SJLJ2H36UJKPJ3RJHO38H" />
+            <input type="hidden" name="redirectUrl" value="/indicator/44609?id=44609" id="redirectUrl"/>
+            <input type="hidden" name="esiaUserId" value="" id="esiaUserId"/>
+            <div class="lr_item">
+              <input type="text" placeholder="Email" required class="form-control" name="login">
+            </div>
+            <div class="lr_item">
+              <input type="password" id="password" placeholder="Пароль" required class="form-control" name="password">
+            </div>
+            <div class="lr_item">
+              <label class="lr_label">
+                <input type="checkbox" class="inp_checkbox hide" name="remember"><span class="sp_checkbox"></span>Запомнить меня
+              </label>
+            </div>
+            <div class="lr_btns">
+              <button type="submit" class="btn blue_btn" id="btn-enter-norm">Войти</button><br/><br/>
+            
+              <button type="button" class="btn gray_btn" id="btn-enter-esia" onclick="location.href='/user/esia'">Войти через ЕСИА</button>
+            
+            
+            </div>
+          </form>
+        </div>
+      
+        <div class="rmb_pass"><a href="/user/restore" class="lnk rmb_pass">Забыли свой пароль?</a></div>
+      
+      </div>
+    </div>
+    <script src="/common/js/plugins.js"></script>
+    <script src="/common/js/style.js"></script>
+    <script type="text/javascript" src="/js/hideShowPassword.js"></script>
+    <script type="text/javascript">
+        $(window).ready(function(){
+            $('input[type=password]').hideShowPassword({
+                innerToggle: 'keydown',
+                states: {
+                    shown: {toggle: {attr: {title: 'Скрыть пароль'}}},
+                    hidden: {toggle: {attr: {title: 'Показать пароль'}}}
+                }
+            }).addClass("password");
+        });
+    </script>
+  </body>
+</html>

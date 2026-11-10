@@ -1,0 +1,163 @@
+{
+ "id": 31077,
+ "debug": true,
+ "title": "Индексы физического объёма валового внутреннего продукта в рыночных ценах в соответствии с методологией СНС 1993 с частичными отклонениями",
+ "unit": "процент",
+ "filters": {
+  "0": {
+   "title": "Показатель",
+   "all": true,
+   "values": {
+    "31077": {
+     "title": "Индексы физического объёма валового внутреннего продукта в рыночных ценах в соответствии с методологией СНС 1993 с частичными отклонениями",
+     "order": 0,
+     "checked": true
+    }
+   },
+   "indicator": true
+  },
+  "3": {
+   "title": "Год",
+   "all": true,
+   "values": {
+    "2002": {
+     "title": "2002",
+     "order": 0,
+     "checked": true
+    },
+    "2003": {
+     "title": "2003",
+     "order": 1,
+     "checked": true
+    },
+    "2004": {
+     "title": "2004",
+     "order": 2,
+     "checked": true
+    },
+    "2005": {
+     "title": "2005",
+     "order": 3,
+     "checked": true
+    },
+    "2006": {
+     "title": "2006",
+     "order": 4,
+     "checked": true
+    },
+    "2007": {
+     "title": "2007",
+     "order": 5,
+     "checked": true
+    },
+    "2008": {
+     "title": "2008",
+     "order": 6,
+     "checked": true
+    },
+    "2009": {
+     "title": "2009",
+     "order": 7,
+     "checked": true
+    },
+    "2010": {
+     "title": "2010",
+     "order": 8,
+     "checked": true
+    },
+    "2011": {
+     "title": "2011",
+     "order": 9,
+     "checked": true
+    }
+   },
+   "indicator": false
+  },
+  "57937": {
+   "title": "Виды показателя",
+   "all": false,
+   "values": {
+    "1742880": {
+     "title": "К значению условного среднего квартала 2008 г.",
+     "order": 0,
+     "checked": true
+    },
+    "1704140": {
+     "title": "К соответствующему периоду предыдущего года",
+     "order": 1,
+     "checked": false
+    }
+   },
+   "indicator": false
+  },
+  "57831": {
+   "title": "Классификатор объектов административно-территориального деления (ОКАТО)",
+   "all": true,
+   "values": {
+    "1688487": {
+     "title": "Российская Федерация",
+     "order": 0,
+     "checked": true
+    }
+   },
+   "indicator": false
+  },
+  "30611": {
+   "title": "Единица измерения",
+   "all": true,
+   "values": {
+    "950473": {
+     "title": "процент",
+     "order": 0,
+     "checked": true
+    }
+   },
+   "indicator": false
+  },
+  "33560": {
+   "title": "Период",
+   "all": true,
+   "values": {
+    "1540222": {
+     "title": "I квартал",
+     "order": 0,
+     "checked": true
+    },
+    "1540224": {
+     "title": "II квартал",
+     "order": 1,
+     "checked": true
+    },
+    "1540226": {
+     "title": "III квартал",
+     "order": 2,
+     "checked": true
+    },
+    "1540227": {
+     "title": "IV квартал",
+     "order": 3,
+     "checked": true
+    },
+    "1558883": {
+     "title": "значение показателя за год",
+     "order": 4,
+     "checked": true
+    }
+   },
+   "indicator": false
+  }
+ },
+ "left_columns": [
+  33560,
+  57937,
+  57831,
+  30611
+ ],
+ "top_columns": [
+  3
+ ],
+ "groups": [],
+ "filterObjectIds": [],
+ "_fetched_at": "2026-10-24T11:23:32",
+ "_url": "https://www.fedstat.ru/indicator/31077"
+}
